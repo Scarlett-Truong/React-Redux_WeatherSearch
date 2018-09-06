@@ -5,6 +5,25 @@ body {
 }
 
 #root{
-    max-width: 700px;
+    width: 1000px;
     margin: 10px auto;
+}
+
+td, th{
+    vertical-align: middle !important;
+    text-align: center !important;
+
+}
+
+.input-group{
+    margin: 10px 0;
+}
+
+svg{
+    height: 120px;
+}
+
+td:first-of-type, td:first-of-type > div {
+    height: 200px;
+    width: 250px;
 }
